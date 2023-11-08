@@ -28,8 +28,7 @@ I add 60 divs in js instead of type it in html:
       }
       board.appendChild(cell);
     }
-...
-
+```
 ### Core
 This is a very basic Js practice.
 
