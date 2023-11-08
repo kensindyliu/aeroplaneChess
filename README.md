@@ -11,7 +11,7 @@
 
 ### sharing code snippets:
 I add 60 divs in js instead of type it in html:
-...
+```javascript
     > // Create cells for the game board
     for (let i = 0; i < 60; i++) {
       const cell = document.createElement("div");
