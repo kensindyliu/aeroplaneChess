@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width: min(100% - 60px, 1080px);
+    margin-inline: auto;
+    margin-top: 20px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 2px;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .airport1 {
+    background-color: #0000ff;
+  }
+  
+  .airport2 {
+    background-color: #8a2be2;
+  }
+
+  .airportNone {
+    background-color: #808080;
+  }
+
+  .playerDiv {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .playerHumanDiv {
+    background-color: blue;
+    width: 160px;
+    padding: 5px;
+  }
+
+  .playerComputerDiv {
+    background-color:blueviolet;
+    width: 160px;
+    padding: 5px;
+  }
+
+  div p {
+    color: aliceblue;
+  }
+
+  .buttonDiv {
+    width: 80px;
+  }
+
+  #rollDiceBtn {
+    height: 50%;
+    background-color: burlywood;
+    color: black;
+    width: 100%;
+  }
+
+  .diceNumber, #computerDice{
+    background-color: beige;
+    color: #000;
+    margin-top: 2px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .humanPlane {
+    background-image: url('./assets/Images/plane1.png'); 
+      background-size: cover;
+      background-position: center; 
+  }
+
+  .computerPlane {
+    background-image: url('./assets/Images/plane2.png'); 
+      background-size: cover;
+      background-position: center; 
+  }
+
+  .computerDiceDive {
+    text-align: center;
+  }
+
+  .computeDiceP {
+    background-color: grey;
+    color: #000;
+    line-height: 18px;
+    font-size: 18px;
+  }

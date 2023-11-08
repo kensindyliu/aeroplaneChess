@@ -1,2 +1,4 @@
 # aeroplaneChess
-a simple game of aeroplane chess
+## How to play
+### start a new game
+
