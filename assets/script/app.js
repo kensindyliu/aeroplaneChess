@@ -1,4 +1,4 @@
-'use stricted'
+'use strict'
 
 document.addEventListener("DOMContentLoaded", () => {
     const board = document.querySelector(".board");
